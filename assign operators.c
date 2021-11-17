@@ -2,11 +2,12 @@
 void main()
 {
 	int a,b;
-	a=10;
-	b=20;
-	a+=b;//30,3
-	a-=b;
-	printf("%d,%d",a,b);
+    a=2;
+    b=3;
+    
+    printf("%d",!(a<b));
+    printf("%d",!(a>b));
+    printf("%d",!(a=b));
 	
 	
 	
